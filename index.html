@@ -11,22 +11,210 @@
     />
     <!-- css -->
     <link rel="stylesheet" href="./css/styles.css" />
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
   </head>
   <body>
-    <!-- navbar -->
+    <!--// navbar -->
+    <nav class="nav" id="nav">
+      <div class="nav-center">
+        <!-- // navheader -->
+        <div class="nav-header">
+          <img src="./images/logo.svg" alt="" class="nav-logo" />
+          <button class="nav-btn" id="nav-btn">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
 
-    <!-- end of navbar -->
-    <!-- sidebar -->
+        <!-- //navlinks -->
+        <ul class="nav-links">
+          <li><a href="index.html"> home </a></li>
+          <li><a href="about.html"> about</a></li>
+          <li><a href="pojects.html"> projects </a></li>
+          <li><a href="contact.html"> contact </a></li>
+        </ul>
+      </div>
+    </nav>
+    <!--// end of navbar -->
+    <!--// sidebar -->
 
-    <!-- end of sidebar -->
-    <!-- header -->
+    <aside class="sidebar" id="sidebar">
+      <div>
+        <button class="close-btn" id="close-btn">
+          <i class="fas fa-times"></i>
+        </button>
+        <!-- //navlinks -->
+        <ul class="sidebar-links">
+          <li><a href="index.html"> home </a></li>
+          <li><a href="about.html"> about</a></li>
+          <li><a href="pojects.html"> projects </a></li>
+          <li><a href="contact.html"> contact </a></li>
+        </ul>
+        <!-- // social links -->
+        <ul class="social-icons">
+          <li>
+            <a href="https://www.twitter.com" class="social-icon">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com" class="social-icon">
+              <i class="fab fa-facebook"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com" class="social-icon">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
 
-    <!-- end of header -->
-    <!-- about -->
+          <li>
+            <a href="https://www.twitter.com" class="social-icon">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com" class="social-icon">
+              <i class="fab fa-youtube"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+    <!--// end of sidebar -->
+    <!--// header -->
+    <header class="hero">
+      <div class="section-center hero-center">
+        <article class="hero-info">
+          <div class="underline"></div>
+          <h1>i'm john</h1>
+          <h4>Frontend developer and UI/UX Designer</h4>
+          <button class="btn hero-btn">hire me</button>
+          <ul class="social-icons hero-icons">
+            <li>
+              <a href="https://www.twitter.com" class="social-icon">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.twitter.com" class="social-icon">
+                <i class="fab fa-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.twitter.com" class="social-icon">
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.twitter.com" class="social-icon">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.twitter.com" class="social-icon">
+                <i class="fab fa-youtube"></i>
+              </a>
+            </li>
+          </ul>
+        </article>
+        <article class="hero-img">
+          <img src="./images/hero-img.jpeg" class="hero-photo" alt="john doe" />
+        </article>
+      </div>
+    </header>
+    <!--// end of header -->
 
-    <!-- end of about -->
+    <!--// about -->
+
+    <section class="section about">
+      <div class="section-center about-center">
+        <!-- //about img -->
+        <article class="about-img">
+          <img
+            src="./images/about-img.jpeg"
+            alt="about-img"
+            class="hero-photo"
+          />
+        </article>
+        <!-- //about info -->
+        <article class="about-info">
+          <!-- ///section title -->
+          <div class="section-title about-title">
+            <h2>about</h2>
+            <div class="underline"></div>
+          </div>
+          <!-- /// end of section title -->
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
+            maiores libero dolorum corporis nobis, facilis velit amet nesciunt
+            accusamus, in cumque eum incidunt eos. Quas a beatae illum veniam et
+            quod ullam obcaecati, ipsum aperiam veritatis libero dolores ea
+            impedit?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas at
+            rerum repellat atque corporis, inventore quo voluptate odio eum
+            fugiat accusamus placeat voluptates ad ullam suscipit quasi
+            architecto saepe! Architecto error repellat perferendis similique
+            repudiandae, excepturi placeat quasi voluptas optio!
+          </p>
+          <a href="about.html" class="btn">about me</a>
+        </article>
+      </div>
+    </section>
+
+    <!--// end of about -->
+
     <!-- services -->
-
+    <section class="section bg-grey">
+      <!-- ///section title -->
+      <div class="section-title">
+        <h2>services</h2>
+        <div class="underline"></div>
+      </div>
+      <!-- /// end of section title -->
+      <div class="services-center section-center">
+        <!-- single service -->
+        <article class="service">
+          <i class="fas fa-code service-icon"></i>
+          <h4>web development</h4>
+          <div class="underline"></div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
+            pariatur dolorum porro. Modi ea vero, voluptates incidunt itaque id
+            laborum, delectus facere commodi nam debitis consequuntur fuga.
+            Sequi, dolores eligendi.
+          </p>
+        </article>
+        <!-- end of single service -->
+        <!-- single service -->
+        <article class="service">
+          <i class="fab fa-sketch service-icon"></i>
+          <h4>web design</h4>
+          <div class="underline"></div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
+            pariatur dolorum porro. Modi ea vero, voluptates incidunt itaque id
+            laborum, delectus facere commodi nam debitis consequuntur fuga.
+            Sequi, dolores eligendi.
+          </p>
+        </article>
+        <!-- end of single service -->
+        <!-- single service -->
+        <article class="service">
+          <i class="fab fa-android service-icon"></i>
+          <h4>App design</h4>
+          <div class="underline"></div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
+            pariatur dolorum porro. Modi ea vero, voluptates incidunt itaque id
+            laborum, delectus facere commodi nam debitis consequuntur fuga.
+            Sequi, dolores eligendi.
+          </p>
+        </article>
+        <!-- end of single service -->
+      </div>
+    </section>
     <!-- end of services -->
     <!-- projects -->
 
@@ -46,5 +234,15 @@
     <!-- footer -->
 
     <script src="./js/app.js"></script>
+    <script>
+      let typed = new Typed('#element', {
+        strings: [
+          'freelance web ',
+          'mobile UI/UX Designer',
+          'front-end developer',
+        ],
+        typeSpeed: 50,
+      });
+    </script>
   </body>
 </html>
